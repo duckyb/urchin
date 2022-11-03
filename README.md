@@ -27,7 +27,7 @@ I created this design because I wanted to upgrade my Sweep with a pair of nice!v
 - 2× Pair of female headers
 #### Optional
 - 2× nice!view
-- 2x Reset switch (B3U-1000P(M))
+- 2× Reset switch (B3U-1000P(M))
 - 10× adhesive silicone feet
 
 ## Credits

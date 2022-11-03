@@ -15,7 +15,7 @@ I created this design because I wanted to upgrade my Sweep with a pair of nice!v
 ⭕ Improved outline shape  
 ⭕ Support for Kailh hotswap sockets  
 
-## Part list
+## Part list (for both sides)
 #### Required
 - 34× Kailh **CHOC** Hotswap Sockets
 - 34× Kailh Choc v1 Switches
@@ -27,6 +27,7 @@ I created this design because I wanted to upgrade my Sweep with a pair of nice!v
 - 2× Pair of female headers
 #### Optional
 - 2× nice!view
+- 2x Reset switch (B3U-1000P(M))
 - 10× adhesive silicone feet
 
 ## Credits

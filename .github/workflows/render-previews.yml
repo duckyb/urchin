@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
 
       # MAKE PREVIEWS
-      - name: Swipe Left
+      - name: Swipe Light
         uses: ./.github/actions/export-pngs
         with:
           pcb_file: '"./main.kicad_pcb"'

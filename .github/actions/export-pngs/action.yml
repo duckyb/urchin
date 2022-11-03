@@ -21,4 +21,4 @@ runs:
     - |
       mkdir -p $GITHUB_WORKSPACE/${{ inputs.pngs_dir }} ;
       pcbdraw plot ${{ inputs.theme }} --silent $GITHUB_WORKSPACE/${{ inputs.pcb_file }} $GITHUB_WORKSPACE/${{ inputs.pngs_dir }}/front.png
-      pcbdraw plot --back ${{ inputs.theme }} --silent $GITHUB_WORKSPACE/${{ inputs.pcb_file }} $GITHUB_WORKSPACE/${{ inputs.pngs_dir }}/back.png
+      pcbdraw plot --side back ${{ inputs.theme }} --silent $GITHUB_WORKSPACE/${{ inputs.pcb_file }} $GITHUB_WORKSPACE/${{ inputs.pngs_dir }}/back.png

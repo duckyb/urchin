@@ -14,11 +14,11 @@ inputs:
   #   default: ''
 runs:
   using: 'docker'
-  image: 'docker://yaqwsx/kikit:v1.1.0'
+  image: 'docker://yaqwsx/kikit:v1.0.2'
   entrypoint: '/bin/sh'
   args:
     - '-c'
     - |
       mkdir -p $GITHUB_WORKSPACE/${{ inputs.pngs_dir }} ;
-      pcbdraw plot ${{ inputs.theme }} --silent $GITHUB_WORKSPACE/${{ inputs.pcb_file }} $GITHUB_WORKSPACE/${{ inputs.pngs_dir }}/front.png
-      pcbdraw plot --side back ${{ inputs.theme }} --silent $GITHUB_WORKSPACE/${{ inputs.pcb_file }} $GITHUB_WORKSPACE/${{ inputs.pngs_dir }}/back.png
+      pcbdraw ${{ inputs.theme }} --silent $GITHUB_WORKSPACE/${{ inputs.pcb_file }} $GITHUB_WORKSPACE/${{ inputs.pngs_dir }}/front.png
+      pcbdraw --back ${{ inputs.theme }} --silent $GITHUB_WORKSPACE/${{ inputs.pcb_file }} $GITHUB_WORKSPACE/${{ inputs.pngs_dir }}/back.png

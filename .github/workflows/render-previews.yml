@@ -5,6 +5,9 @@ on:
       - main
     paths:
       - "**/*.kicad_pcb"
+      - "**/*.kicad_sch"
+      - ".github/workflows/render.previews.yml"
+      - ".github/actions/action.yml"
 
 name: Render Previews
 jobs:

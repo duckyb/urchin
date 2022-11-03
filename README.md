@@ -2,7 +2,7 @@
 
 ![PCB Preview](./gallery/main/front.png)
 
-I created this design because I wanted to upgrade my Sweep with a pair of nice!view displays. I decided to use the edge design from the Swoop and to make it compatible with Kailh hotswap sockets.  
+I created this design because I wanted to upgrade my [Sweep](https://github.com/davidphilipbarr/Sweep) with the fancy nice!view displays. I decided to use the edge design from the [Swoop](https://github.com/jimmerricks/swoop) and to make it compatible with Kailh hotswap sockets.  
 **This is a strictly wireless-only design, and is only compatible with ZMK / nice!nano.**
 
 > Q: Why is this not just another Sweep?  
@@ -31,6 +31,7 @@ I created this design because I wanted to upgrade my Sweep with a pair of nice!v
 - 10× adhesive silicone feet
 
 ## Credits
-- PCB edge design by [jimmerricks](https://github.com/jimmerricks)
+- The name "Swipe Light" by [Pete](https://github.com/petejohanson)
+- PCB edge design by [jimmerricks](https://github.com/jimmerricks/swoop)
 - nice!view integration reference: [sadekbaroudi/sweep36](https://github.com/sadekbaroudi/sweep36)
 - silkscreen labels style: [bastardkb/dilemma](https://github.com/Bastardkb/Dilemma)

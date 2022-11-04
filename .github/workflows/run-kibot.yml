@@ -11,7 +11,6 @@ on:
       - '*.kibot.yaml'
       - '.github/workflows/run-kibot.yml'
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   Fabrication:
     runs-on: ubuntu-latest
@@ -22,16 +21,23 @@ jobs:
         # Required - kibot config file
         config: main.kibot.yaml
         # optional - prefix to output defined in config
-        dir: pcb_main/
+        dir: gallery/
         # optional - schematic file
         schema: 'main.kicad_sch'
         # optional - PCB design file
         board: 'main.kicad_pcb'
-    - name: Retrieve results
-      if: ${{ always() }}
-      uses: actions/upload-artifact@v2
+    # - name: Retrieve results
+    #   if: ${{ always() }}
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: Fabrication_Main
+    #     path: |
+    #       pcb_main/
+    #     if-no-files-found: warn
+    # UPDATE GALLERY
+    - name: Update gallery
+      uses: stefanzweifel/git-auto-commit-action@v4.14.1
       with:
-        name: Fabrication_Main
-        path: |
-          pcb_main/
-        if-no-files-found: warn
+        commit_message: "Update gallery (automated)"
+        commit_user_name: GitHub Actions Bot
+        file_pattern: "**/*.jpg"

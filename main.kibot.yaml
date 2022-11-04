@@ -19,7 +19,7 @@ outputs:
     type: pcbdraw
     dir: main/
     options:
-      format: jpg
+      format: png
       style: set-blue-enig
       show_components: none
       dpi: 600
@@ -30,7 +30,7 @@ outputs:
     type: pcbdraw
     dir: main/
     options:
-      format: jpg
+      format: png
       style: set-blue-enig
       bottom: True
       show_components: none

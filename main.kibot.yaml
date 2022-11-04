@@ -10,13 +10,14 @@ preflight:
 
 global:
   # We want the revision added to the names for this project
-  output: '%f-%i_%r.%x'
+  # output: '%f-%i_%r.%x'
+  output: '%f-%i.%x'
 
 outputs:
   - name: pcb_top_b
     comment: "PCB render top blue"
     type: pcbdraw
-    dir: PCB/blue
+    dir: ./
     options:
       format: jpg
       style: set-blue-enig
@@ -26,7 +27,7 @@ outputs:
   - name: pcb_bot_b
     comment: "PCB render bottom blue"
     type: pcbdraw
-    dir: PCB/blue
+    dir: ./
     options:
       format: jpg
       style: set-blue-enig

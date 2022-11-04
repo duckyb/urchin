@@ -1,0 +1,35 @@
+# Example KiBot config file
+kibot:
+  version: 2
+
+preflight:
+  run_erc: false
+  run_drc: false
+  check_zone_fills: false
+  ignore_unconnected: false
+
+global:
+  # We want the revision added to the names for this project
+  output: '%f-%i_%r.%x'
+
+outputs:
+  - name: pcb_top_b
+    comment: "PCB render top blue"
+    type: pcbdraw
+    dir: PCB/blue
+    options:
+      format: jpg
+      style: set-blue-enig
+      show_components: none
+      dpi: 600
+
+  - name: pcb_bot_b
+    comment: "PCB render bottom blue"
+    type: pcbdraw
+    dir: PCB/blue
+    options:
+      format: jpg
+      style: set-blue-enig
+      bottom: True
+      show_components: none
+      dpi: 600

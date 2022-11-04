@@ -1,0 +1,37 @@
+name: "KiCad CI/CD for Swipe Light main board"
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
+      - '*.kibot.yaml'
+      - '.github/workflows/run-kibot.yml'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  Fabrication:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        # Required - kibot config file
+        config: main.kibot.yaml
+        # optional - prefix to output defined in config
+        dir: pcb_main/Fabrication
+        # optional - schematic file
+        schema: 'main.kicad_sch'
+        # optional - PCB design file
+        board: 'main.kicad_pcb'
+    - name: Retrieve results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v2
+      with:
+        name: Fabrication_Main
+        path: |
+          pcb_main/Fabrication/
+        if-no-files-found: warn

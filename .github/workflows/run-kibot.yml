@@ -22,7 +22,7 @@ jobs:
         # Required - kibot config file
         config: main.kibot.yaml
         # optional - prefix to output defined in config
-        # dir: pcb_main/Fabrication
+        dir: pcb_main/
         # optional - schematic file
         schema: 'main.kicad_sch'
         # optional - PCB design file
@@ -33,5 +33,5 @@ jobs:
       with:
         name: Fabrication_Main
         path: |
-          pcb_main/Fabrication/
+          pcb_main/
         if-no-files-found: warn

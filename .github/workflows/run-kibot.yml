@@ -26,14 +26,6 @@ jobs:
         schema: 'main.kicad_sch'
         # optional - PCB design file
         board: 'main.kicad_pcb'
-    # - name: Retrieve results
-    #   if: ${{ always() }}
-    #   uses: actions/upload-artifact@v2
-    #   with:
-    #     name: Fabrication_Main
-    #     path: |
-    #       pcb_main/
-    #     if-no-files-found: warn
     # UPDATE GALLERY
     - name: Update gallery
       uses: stefanzweifel/git-auto-commit-action@v4.14.1

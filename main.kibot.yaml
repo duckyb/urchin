@@ -1,6 +1,6 @@
 # Example KiBot config file
 kibot:
-  version: 2
+  version: 1
 
 preflight:
   run_erc: false

@@ -21,8 +21,6 @@ outputs:
     options:
       format: png
       style: set-blue-enig
-      show_components: none
-      dpi: 72
 
   # render the bottom side with pcbdraw
   - name: pcb_bot_b
@@ -33,5 +31,3 @@ outputs:
       format: png
       style: set-blue-enig
       bottom: True
-      show_components: none
-      dpi: 72

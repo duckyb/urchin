@@ -34,5 +34,6 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 - PCB edge design by [jimmerricks](https://github.com/jimmerricks/swoop)
 - Coral, rocks, sand & bubbles by [Kneecrust](https://linktr.ee/kneecrust)
 - The development name "Swipe Light" by [Pete](https://github.com/petejohanson)
-- nice!view integration reference: [sadekbaroudi/sweep36](https://github.com/sadekbaroudi/sweep36)
-- silkscreen labels style: [bastardkb/dilemma](https://github.com/Bastardkb/Dilemma)
+- Nice!view integration reference: [sadekbaroudi/sweep36](https://github.com/sadekbaroudi/sweep36)
+- ZMK Firmware help by [Mabroum](https://github.com/AlaaSaadAbdo)
+- Silkscreen labels style: [bastardkb/dilemma](https://github.com/Bastardkb/Dilemma)

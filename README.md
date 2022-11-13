@@ -1,4 +1,4 @@
-# Swipe Light
+# Urchin
 
 ![PCB Preview](./gallery/main/main-top.png)
 
@@ -31,8 +31,8 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 - 10× adhesive silicone feet
 
 ## Credits
-- The name "Swipe Light" by [Pete](https://github.com/petejohanson)
 - PCB edge design by [jimmerricks](https://github.com/jimmerricks/swoop)
 - Coral, rocks, sand & bubbles by [Kneecrust](https://linktr.ee/kneecrust)
+- The development name "Swipe Light" by [Pete](https://github.com/petejohanson)
 - nice!view integration reference: [sadekbaroudi/sweep36](https://github.com/sadekbaroudi/sweep36)
 - silkscreen labels style: [bastardkb/dilemma](https://github.com/Bastardkb/Dilemma)

@@ -8,7 +8,7 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 > Q: Why is this not just another Sweep?  
 *A: In order to support the nice!view display I had to use a switch matrix with diodes instead of the Sweep's direct pin design. This means that the firmwares are not interchangeable. I also wanted to use a different PCB shape which makes it incompatible with Sweep cases.*
 
-**If you enjoy my work, please consider ⭐ starring and/or ❤ funding it.**
+**If you enjoy my work, please consider ⭐ starring and/or ❤ sponsoring it.**
 
 ## Features
 ⭕ Design fully optimized for wireless    

@@ -16,6 +16,7 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 ⭕ Familiar Ferris/Sweep layout  
 ⭕ Improved outline shape  
 ⭕ Support for Kailh hotswap sockets  
+⭕ Mounting points for cases
 
 ## Part list (for both sides)
 #### Required
@@ -31,6 +32,12 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 - 2× nice!view
 - 2× Reset switch (B3U-1000P(M))
 - 10× adhesive silicone feet
+
+## How do I make this?
+
+*Video guide coming soon.*
+
+[comment]: <img src="https://gist.githubusercontent.com/duckyb/337340baa1f0c8bcc06fef7b3b57242b/raw/97e6e0748dd1b8a3fb54fac0a88e84e6b6e0e10a/build-guide-button.svg" height="44">
 
 ## Firmware
 Urchin supports ZMK only. To get started with ZMK visit the [zmk-urchin repository](https://github.com/duckyb/zmk-urchin) and follow the provided instructions.

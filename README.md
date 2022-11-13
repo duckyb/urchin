@@ -30,6 +30,9 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 - 2× Reset switch (B3U-1000P(M))
 - 10× adhesive silicone feet
 
+## Firmware
+Urchin supports ZMK only. To get started with ZMK visit the [zmk-urchin repository](https://github.com/duckyb/zmk-urchin) and follow the provided instructions.
+
 ## Credits
 - PCB edge design by [jimmerricks](https://github.com/jimmerricks/swoop)
 - Coral, rocks, sand & bubbles by [Kneecrust](https://linktr.ee/kneecrust)

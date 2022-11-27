@@ -11,12 +11,18 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 **If you enjoy my work, please consider ⭐ starring and/or ❤ sponsoring it.**
 
 ## Features
-⭕ Design fully optimized for wireless    
-⭕ Native nice!view support  
-⭕ Familiar Ferris/Sweep layout  
-⭕ Improved outline shape  
-⭕ Support for Kailh hotswap sockets  
-⭕ Mounting points for cases
+- [x] Design fully optimized for wireless    
+- [x] Native nice!view support  
+- [x] Familiar Ferris/Sweep layout  
+- [x] Improved outline shape  
+- [x] Support for Kailh hotswap sockets  
+- [x] Mounting points for cases
+
+### Upcoming
+- [ ] Plate file
+- [ ] MCU Cover file
+- [ ] Tray case 3D model
+- [ ] Changes to diode footprint and position
 
 ## Part list (for both sides)
 #### Required

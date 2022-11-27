@@ -37,6 +37,7 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 #### Optional
 - 2× nice!view
 - 2× Reset switch (B3U-1000P(M))
+- 2× Power switch (MSK 12C02)
 - 10× adhesive silicone feet
 
 ## How do I make this?

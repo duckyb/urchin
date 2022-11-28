@@ -10,6 +10,16 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 
 **If you enjoy my work, please consider ⭐ starring and/or ❤ sponsoring it.**
 
+## Sponsors
+
+*Support the people that support me!* 🙏🏻
+
+<span class="sponsors">
+  <a href="https://www.pcbway.com/">
+    <img src="https://user-images.githubusercontent.com/27895007/201170595-901a4723-b910-418c-b273-a5c9987ad1c8.png" height="50"/>
+  </a>
+</span>
+
 ## Features
 - [x] Design fully optimized for wireless    
 - [x] Native nice!view support  

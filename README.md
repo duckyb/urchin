@@ -2,6 +2,15 @@
 
 ![PCB Preview](./gallery/main/main-top.png)
 
+<span>
+  <img src="https://img.shields.io/github/last-commit/duckyb/urchin?style=flat-square">
+  <a href="https://github.com/duckyb/urchin/releases">
+    <img src="https://img.shields.io/github/v/release/duckyb/urchin?include_prereleases&color=success&style=flat-square">
+    <img src="https://img.shields.io/github/downloads/duckyb/urchin/total?color=success&style=flat-square">
+  </a>
+  <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=success&style=flat-square">
+</span>
+
 I created this design because I wanted to upgrade my [Sweep](https://github.com/davidphilipbarr/Sweep) with the fancy nice!view displays. I decided to use the edge design from the [Swoop](https://github.com/jimmerricks/swoop) and to make it compatible with Kailh hotswap sockets.  
 **This is a strictly wireless-only design, and is only compatible with ZMK / nice!nano. Only Choc v1 switches + Hotswap are suported!**
 

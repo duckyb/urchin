@@ -3,7 +3,7 @@
 ![PCB Preview](./gallery/main/main-top.png)
 
 I created this design because I wanted to upgrade my [Sweep](https://github.com/davidphilipbarr/Sweep) with the fancy nice!view displays. I decided to use the edge design from the [Swoop](https://github.com/jimmerricks/swoop) and to make it compatible with Kailh hotswap sockets.  
-**This is a strictly wireless-only design, and is only compatible with ZMK / nice!nano.**
+**This is a strictly wireless-only design, and is only compatible with ZMK / nice!nano. Only Choc v1 switches + Hotswap are suported!**
 
 > Q: Why is this not just another Sweep?  
 *A: In order to support the nice!view display I had to use a switch matrix with diodes instead of the Sweep's direct pin design. This means that the firmwares are not interchangeable. I also wanted to use a different PCB shape which makes it incompatible with Sweep cases.*
@@ -32,10 +32,12 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 - [ ] Plate file
 - [ ] MCU Cover file
 - [ ] Tray case 3D model
-- [ ] Changes to diode footprint and position
+- [ ] Change diode footprint to also allow through-hole version
+- [ ] Remove diode footprint from the top surface
 
 ## Part list (for both sides)
 #### Required
+- 1× PCB Kit (files for it are in [releases](https://github.com/duckyb/urchin/releases))
 - 34× Kailh **CHOC** Hotswap Sockets
 - 34× Kailh Choc v1 Switches
 - 34× Keycaps

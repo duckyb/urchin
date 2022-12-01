@@ -27,6 +27,9 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
   <a href="https://www.pcbway.com/">
     <img src="https://user-images.githubusercontent.com/27895007/201170595-901a4723-b910-418c-b273-a5c9987ad1c8.png" height="50"/>
   </a>
+  <a href="https://shop.beekeeb.com/">
+    <img src="https://user-images.githubusercontent.com/27895007/192096782-2ca086d8-54a3-42fd-a67b-0f1e25f1ffbc.png" height="50"/>
+  </a>
 </span>
 
 ## Features

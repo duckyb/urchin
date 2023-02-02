@@ -66,9 +66,9 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 
 ## How do I make this?
 
-*Video guide coming soon.*
-
-[comment]: <img src="https://gist.githubusercontent.com/duckyb/337340baa1f0c8bcc06fef7b3b57242b/raw/97e6e0748dd1b8a3fb54fac0a88e84e6b6e0e10a/build-guide-button.svg" height="44">
+<a href="https://youtu.be/CHSh1-dJq24" target="_blank">
+<img src="https://gist.githubusercontent.com/duckyb/337340baa1f0c8bcc06fef7b3b57242b/raw/97e6e0748dd1b8a3fb54fac0a88e84e6b6e0e10a/build-guide-button.svg" height="44">
+</a>
 
 ## Firmware
 Urchin supports ZMK only. To get started with ZMK visit the [zmk-urchin repository](https://github.com/duckyb/zmk-urchin) and follow the provided instructions.

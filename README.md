@@ -78,5 +78,5 @@ Urchin supports ZMK only. To get started with ZMK visit the [zmk-urchin reposito
 - Coral, rocks, sand & bubbles by [Kneecrust](https://linktr.ee/kneecrust)
 - The development name "Swipe Light" by [Pete](https://github.com/petejohanson)
 - Nice!view integration reference: [sadekbaroudi/sweep36](https://github.com/sadekbaroudi/sweep36)
-- ZMK Firmware help by [Mabroum](https://github.com/AlaaSaadAbdo)
+- ZMK Firmware help by [Mabroum](https://github.com/AlaaSaadAbdo) & [Bravekarma](https://github.com/caksoylar)
 - Silkscreen labels style: [bastardkb/dilemma](https://github.com/Bastardkb/Dilemma)

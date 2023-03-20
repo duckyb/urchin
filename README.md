@@ -1,7 +1,6 @@
 # Urchin
 
 ![PCB Preview](./gallery/main/main-top.png)
-![Case Preview](./gallery/case/cad-side-pcb.png)
 
 <span>
   <img src="https://img.shields.io/github/last-commit/duckyb/urchin?style=flat-square">
@@ -81,4 +80,5 @@ Urchin supports ZMK only. To get started with ZMK visit the [zmk-urchin reposito
 - Nice!view integration reference: [sadekbaroudi/sweep36](https://github.com/sadekbaroudi/sweep36)
 - ZMK Firmware help by [Mabroum](https://github.com/AlaaSaadAbdo) & [Bravekarma](https://github.com/caksoylar)
 - Silkscreen labels style: [bastardkb/dilemma](https://github.com/Bastardkb/Dilemma)
-- 3d case by: [iamDrakkir](https://github.com/iamDrakkir)
+- 3d case by [iamDrakkir](https://github.com/iamDrakkir)
+- 3d case by [chewiedies](https://www.printables.com/it/social/360738-chewiedies/about)

@@ -32,5 +32,6 @@ ProMicroKiCad
 
 # output folder and files
 gerber_to_order/
+**/*-backups/
 *.zip
 *.dxf

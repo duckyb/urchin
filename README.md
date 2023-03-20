@@ -11,10 +11,10 @@
   <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=success&style=flat-square">
 </span>
 
-I created this design because I wanted to upgrade my [Sweep](https://github.com/davidphilipbarr/Sweep) with the fancy nice!view displays. I decided to use the edge design from the [Swoop](https://github.com/jimmerricks/swoop) and to make it compatible with Kailh hotswap sockets.  
+I created this design because I wanted to upgrade my [Sweep](https://github.com/davidphilipbarr/Sweep) with the fancy nice!view displays. I decided to use the edge design from the [Swoop](https://github.com/jimmerricks/swoop) and to make it compatible with Kailh hotswap sockets.
 **This is a strictly wireless-only design, and is only compatible with ZMK / nice!nano. Only Choc v1 switches + Hotswap are supported!**
 
-> Q: Why is this not just another Sweep?  
+> Q: Why is this not just another Sweep?
 *A: In order to support the nice!view display I had to use a switch matrix with diodes instead of the Sweep's direct pin design. This means that the firmwares are not interchangeable. I also wanted to use a different PCB shape which makes it incompatible with Sweep cases.*
 
 **If you enjoy my work, please consider ⭐ starring and/or ❤ sponsoring it.**
@@ -33,17 +33,17 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 </span>
 
 ## Features
-- [x] Design fully optimized for wireless    
-- [x] Native nice!view support  
-- [x] Familiar Ferris/Sweep layout  
-- [x] Improved outline shape  
-- [x] Support for Kailh hotswap sockets  
+- [x] Design fully optimized for wireless
+- [x] Native nice!view support
+- [x] Familiar Ferris/Sweep layout
+- [x] Improved outline shape
+- [x] Support for Kailh hotswap sockets
 - [x] Mounting points for cases
+- [x] Tray case 3D model
 
 ### Upcoming
 - [ ] Plate file
 - [ ] MCU Cover file
-- [ ] Tray case 3D model
 - [ ] Change diode footprint to also allow through-hole version
 - [ ] Remove diode footprint from the top surface
 
@@ -80,3 +80,5 @@ Urchin supports ZMK only. To get started with ZMK visit the [zmk-urchin reposito
 - Nice!view integration reference: [sadekbaroudi/sweep36](https://github.com/sadekbaroudi/sweep36)
 - ZMK Firmware help by [Mabroum](https://github.com/AlaaSaadAbdo) & [Bravekarma](https://github.com/caksoylar)
 - Silkscreen labels style: [bastardkb/dilemma](https://github.com/Bastardkb/Dilemma)
+- 3d case by [iamDrakkir](https://github.com/iamDrakkir)
+- 3d case by [chewiedies](https://www.printables.com/it/social/360738-chewiedies/about)

@@ -73,6 +73,9 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 ## Firmware
 Urchin supports ZMK only. To get started with ZMK visit the [zmk-urchin repository](https://github.com/duckyb/zmk-urchin) and follow the provided instructions.
 
+## More videos about Urchin
+- https://www.youtube.com/watch?v=o2W_uG-OBjk
+
 ## Credits
 - PCB edge design by [jimmerricks](https://github.com/jimmerricks/swoop)
 - Coral, rocks, sand & bubbles by [Kneecrust](https://linktr.ee/kneecrust)

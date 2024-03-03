@@ -60,7 +60,6 @@
         (width 0.1) (fill yes))
     ) (tstamp c8d9a129-01b1-456f-b1bf-b1cb9ed286d7))
   (pad "1" thru_hole circle (at -0.6746 0 270) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu") (tstamp a68791bf-5cf1-4f04-8608-9460c53cf39c))
-  (pad "2" thru_hole circle (at 0.6746 0.0004 90) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu") (tstamp b11f29e1-321e-4356-a041-cf6e0eec1490))
   (pad "2" smd custom (at 1.775 0) (size 1.3 0.95) (layers "B.Cu")
     (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))

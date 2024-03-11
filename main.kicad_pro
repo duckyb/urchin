@@ -3,9 +3,6 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
-        "apply_defaults_to_fp_fields": false,
-        "apply_defaults_to_fp_shapes": false,
-        "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.09999999999999999,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
@@ -37,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.8,
-          "height": 4.2,
-          "width": 4.2
+          "drill": 2.2,
+          "height": 3.0,
+          "width": 3.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -59,7 +56,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "ignore",
+        "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -70,7 +67,6 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
         "hole_clearance": "ignore",
         "hole_near_hole": "ignore",
@@ -90,11 +86,11 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "ignore",
+        "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -134,6 +130,9 @@
       },
       "teardrop_options": [
         {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 5,
+          "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
           "td_ontrackend": false,
@@ -142,76 +141,37 @@
       ],
       "teardrop_parameters": [
         {
-          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
-          "td_on_pad_in_zone": false,
           "td_target_name": "td_round_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
-          "td_on_pad_in_zone": false,
           "td_target_name": "td_rect_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
-          "td_on_pad_in_zone": false,
           "td_target_name": "td_track_end",
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
       "track_widths": [],
-      "tuning_pattern_settings": {
-        "diff_pair_defaults": {
-          "corner_radius_percentage": 80,
-          "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
-          "single_sided": false,
-          "spacing": 1.0
-        },
-        "diff_pair_skew_defaults": {
-          "corner_radius_percentage": 80,
-          "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
-          "single_sided": false,
-          "spacing": 0.6
-        },
-        "single_track_defaults": {
-          "corner_radius_percentage": 80,
-          "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
-          "single_sided": false,
-          "spacing": 0.6
-        }
-      },
       "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
-    },
-    "ipc2581": {
-      "dist": "",
-      "distpn": "",
-      "internal_id": "",
-      "mfg": "",
-      "mpn": ""
     },
     "layer_presets": [],
     "viewports": []
@@ -401,21 +361,15 @@
       "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
-      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
-      "missing_bidi_pin": "warning",
-      "missing_input_pin": "warning",
-      "missing_power_pin": "error",
-      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -425,7 +379,6 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -472,78 +425,15 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_fmt_presets": [],
-    "bom_fmt_settings": {
-      "field_delimiter": ",",
-      "keep_line_breaks": false,
-      "keep_tabs": false,
-      "name": "CSV",
-      "ref_delimiter": ",",
-      "ref_range_delimiter": "",
-      "string_delimiter": "\""
-    },
-    "bom_presets": [],
-    "bom_settings": {
-      "exclude_dnp": false,
-      "fields_ordered": [
-        {
-          "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        }
-      ],
-      "filter_string": "",
-      "group_symbols": true,
-      "name": "Grouped By Value",
-      "sort_asc": true,
-      "sort_field": "Reference"
-    },
-    "connection_grid_size": 50.0,
     "drawing": {
-      "dashed_lines_dash_length_ratio": 12.0,
-      "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
@@ -554,11 +444,6 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
-      "operating_point_overlay_i_precision": 3,
-      "operating_point_overlay_i_range": "~A",
-      "operating_point_overlay_v_precision": 3,
-      "operating_point_overlay_v_range": "~V",
-      "overbar_offset_ratio": 1.23,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
     },
@@ -580,19 +465,14 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
-    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
   "sheets": [
     [
       "628ac4d5-36ec-4532-ae41-3d8ecd77c045",
-      "Root"
+      ""
     ]
   ],
   "text_variables": {}

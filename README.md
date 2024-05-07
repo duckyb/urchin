@@ -9,6 +9,10 @@
     <img src="https://img.shields.io/github/downloads/duckyb/urchin/total?color=success&style=flat-square">
   </a>
   <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=success&style=flat-square">
+  <br/>
+  <a href="https://discord.gg/hAm5QVJrbU">
+    <img src="https://img.shields.io/discord/669011382284451861?style=flat-square&logo=discord&logoColor=white&label=Urchin%20Chat&color=%235865f2">
+  </a>
 </span>
 
 I created this design because I wanted to upgrade my [Sweep](https://github.com/davidphilipbarr/Sweep) with the fancy nice!view displays. I decided to use the edge design from the [Swoop](https://github.com/jimmerricks/swoop) and to make it compatible with Kailh hotswap sockets.

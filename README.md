@@ -37,7 +37,6 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 </span>
 
 ## Features
-
 - [x] Design fully optimized for wireless
 - [x] Native nice!view support
 - [x] Familiar Ferris/Sweep layout
@@ -47,16 +46,13 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 - [x] Tray case 3D model
 
 ### Upcoming
-
 - [ ] Plate file
 - [ ] MCU Cover file
 - [ ] Change diode footprint to also allow through-hole version
 - [ ] Remove diode footprint from the top surface
 
 ## Part list (for both sides)
-
 #### Required
-
 - 1× PCB Kit (files for it are in [releases](https://github.com/duckyb/urchin/releases))
 - 34× Kailh **CHOC** Hotswap Sockets
 - 34× Kailh Choc v1 Switches
@@ -66,9 +62,7 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 - 2× Lipo battery (301230)
 - 48× mill-max machined pins
 - 2× Pair of female headers
-
 #### Optional
-
 - 2× nice!view
 - 2× Reset switch (B3U-1000P(M))
 - 2× Power switch (MSK 12C02)
@@ -81,15 +75,12 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 </a>
 
 ## Firmware
-
 Urchin supports ZMK only. To get started with ZMK visit the [zmk-urchin repository](https://github.com/duckyb/zmk-urchin) and follow the provided instructions.
 
 ## More videos about Urchin
-
-- <https://www.youtube.com/watch?v=o2W_uG-OBjk>
+- https://www.youtube.com/watch?v=o2W_uG-OBjk
 
 ## Credits
-
 - PCB edge design by [jimmerricks](https://github.com/jimmerricks/swoop)
 - Coral, rocks, sand & bubbles by [Kneecrust](https://linktr.ee/kneecrust)
 - The development name "Swipe Light" by [Pete](https://github.com/petejohanson)

@@ -2,10 +2,12 @@
 
 ![urchin in fluorescent yellow](../../gallery/case/carrefinho/urchin_case_1.jpg)
 
-## STL Versions ##
+## Plate Versions ##
 
-- Barebones
-  - only cutout for controller (as pictured above)
+*Only Basic version was tested for fit, others are designed with CAD models only.*
+
+- Basic
+  - cutout for controller (pictured above)
 
 - Reset
   - cutouts for controller and reset button

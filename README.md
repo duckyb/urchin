@@ -89,3 +89,4 @@ Urchin supports ZMK only. To get started with ZMK visit the [zmk-urchin reposito
 - Silkscreen labels style: [bastardkb/dilemma](https://github.com/Bastardkb/Dilemma)
 - 3d case by [iamDrakkir](https://github.com/iamDrakkir)
 - 3d case by [chewiedies](https://www.printables.com/it/social/360738-chewiedies/about)
+- 3d case by [carrefinho](https://github.com/carrefinho)

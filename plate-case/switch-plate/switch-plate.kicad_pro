@@ -258,7 +258,7 @@
       "plot": "gerber-switch-plate/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "switch-plate.step",
       "svg": "",
       "vrml": ""
     },

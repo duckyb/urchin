@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "fffffff_7ffffffe",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "main-switch-plate.kicad_prl",
+    "filename": "switch-plate.kicad_prl",
     "version": 3
   },
   "project": {

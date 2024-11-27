@@ -44,12 +44,11 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 - [x] Support for Kailh hotswap sockets
 - [x] Mounting points for cases
 - [x] Tray case 3D model
+- [x] Switch Plate files (3 options)
 
 ### Upcoming
-- [ ] Plate file
+
 - [ ] MCU Cover file
-- [ ] Change diode footprint to also allow through-hole version
-- [ ] Remove diode footprint from the top surface
 
 ## Part list (for both sides)
 #### Required

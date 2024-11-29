@@ -64,6 +64,9 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 - 2× Power switch (MSK 12C02)
 - 10× adhesive silicone feet
 
+> [!NOTE]  
+> Installing a case, microcontroller cover, or screen acrylic cover will require additional M2 hardware not included in this list. (Like screws, standoffs, nuts, heat set inserts)
+
 ## How do I make this?
 
 <a href="https://youtu.be/CHSh1-dJq24" target="_blank">

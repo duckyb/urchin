@@ -34,4 +34,3 @@ ProMicroKiCad
 gerber_to_order/
 **/*-backups/
 *.zip
-*.dxf

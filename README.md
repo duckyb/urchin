@@ -47,7 +47,7 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 - [x] Switch Plate files (3 options)
 - [x] MCU/Screen Cover files
 
-## Part list (for both sides)
+## Part list (for a full keyboard)
 #### Required
 - 1× PCB Kit (files for it are in [releases](https://github.com/duckyb/urchin/releases))
 - 34× Kailh **CHOC** Hotswap Sockets

@@ -45,10 +45,7 @@ I created this design because I wanted to upgrade my [Sweep](https://github.com/
 - [x] Mounting points for cases
 - [x] Tray case 3D model
 - [x] Switch Plate files (3 options)
-
-### Upcoming
-
-- [ ] MCU Cover file
+- [x] MCU/Screen Cover files
 
 ## Part list (for both sides)
 #### Required

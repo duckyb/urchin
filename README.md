@@ -71,7 +71,9 @@ _Support the people that support me!_ 🙏🏻
 
 #### Case (NEW!)
 
-The official Coral case is available on [Makerworld](https://makerworld.com/en/models/1057239#profileId-1044921) (for free). Other cases can be found in this repository inside the `3d-prints` folder.
+| Coral Case                                         | Description                                                                                                                                                                                             |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Coral Case](gallery/case/coral/coral-render.png) | The official Coral case is available on [Makerworld](https://makerworld.com/en/models/1057239#profileId-1044921) (for free). Other cases can be found in this repository inside the `3d-prints` folder. |
 
 > [!NOTE]  
 > Installing a case, microcontroller cover, or screen acrylic cover will require additional M2 hardware not included in this list. (Like screws, standoffs, nuts, heat set inserts)

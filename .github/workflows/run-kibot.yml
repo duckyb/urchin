@@ -6,30 +6,30 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - '*.kicad_sch'
-      - '*.kicad_pcb'
-      - '*.kibot.yaml'
-      - '.github/workflows/run-kibot.yml'
+      - "*.kicad_sch"
+      - "*.kicad_pcb"
+      - "*.kibot.yaml"
+      - ".github/workflows/run-kibot.yml"
 
 jobs:
   Fabrication:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: INTI-CMNB/KiBot@v2_k6
-      with:
-        # Required - kibot config file
-        config: main.kibot.yaml
-        # optional - prefix to output defined in config
-        dir: gallery/
-        # optional - schematic file
-        schema: 'main.kicad_sch'
-        # optional - PCB design file
-        board: 'main.kicad_pcb'
-    # UPDATE GALLERY
-    - name: Update gallery
-      uses: stefanzweifel/git-auto-commit-action@v4.14.1
-      with:
-        commit_message: "Update gallery (automated)"
-        commit_user_name: GitHub Actions Bot
-        file_pattern: "**/*.png"
+      - uses: actions/checkout@v3
+      - uses: INTI-CMNB/KiBot@v2_k8
+        with:
+          # Required - kibot config file
+          config: main.kibot.yaml
+          # optional - prefix to output defined in config
+          dir: gallery/
+          # optional - schematic file
+          schema: "main.kicad_sch"
+          # optional - PCB design file
+          board: "main.kicad_pcb"
+      # UPDATE GALLERY
+      - name: Update gallery
+        uses: stefanzweifel/git-auto-commit-action@v4.14.1
+        with:
+          commit_message: "Update gallery (automated)"
+          commit_user_name: GitHub Actions Bot
+          file_pattern: "**/*.png"

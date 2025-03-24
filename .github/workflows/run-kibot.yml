@@ -28,7 +28,7 @@ jobs:
           board: "main.kicad_pcb"
       # UPDATE GALLERY
       - name: Update gallery
-        uses: stefanzweifel/git-auto-commit-action@v4.14.1
+        uses: stefanzweifel/git-auto-commit-action@v5.1.0
         with:
           commit_message: "Update gallery (automated)"
           commit_user_name: GitHub Actions Bot

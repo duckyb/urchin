@@ -10,3 +10,6 @@ Please note that the screen shield hides the reset button completely.
 
 ![](../../gallery/case/rayreside/top.png)
 ![](../../gallery/case/rayreside/side.png)
+
+There is also a high-profile version of this case in
+[boxy-case-by-rayreside](../boxy-case-by-rayreside).

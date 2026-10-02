@@ -4,6 +4,8 @@ A replacement bottom for the official Coral case that takes the same tenting
 feet as the TOTEM tenting case (the AliExpress feet from #23). The Coral top
 is used unchanged. A 40 × 20 × 4 mm (350 mAh) battery fits next to the feet.
 
+![Printed left half, tented](../../gallery/case/jadefalkner/printed-left.jpg)
+
 ![Tenting bottom, inside and underside](../../gallery/case/jadefalkner/preview.png)
 
 ## Parts
@@ -31,7 +33,13 @@ the middle. The right half is a mirror of the left, pockets included.
 
 ## Printing
 
-Print floor down, as oriented.
+The pictured parts were ordered from JLCPCB as SLA resin (Imagine Black,
+sanded) and needed no supports.
+
+On an FDM printer, print floor down as oriented. The only overhangs are the
+roofs of the two foot pockets: flat bridges of about 20 mm, 4.1 mm above the
+bed. They can be bridged, or you add supports inside the pockets only. The
+rest of the part has no overhangs.
 
 ## Status
 
